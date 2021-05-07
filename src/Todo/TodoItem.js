@@ -10,7 +10,7 @@ function TodoItem({ todo, index, onChange }) {
    }
    
   return (
-    <li>
+    <li className='border border-dark'>
       <span className={classes.join(' ')}>
         <input
           className="form-check-input"

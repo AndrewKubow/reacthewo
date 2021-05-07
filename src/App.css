@@ -56,8 +56,18 @@ ul li {
   margin-bottom: 20px;
   padding: 5px;
   border-bottom: 1px solid #ccc;
+  border-radius: .25rem;
 }
 
 .done  {
   text-decoration: line-through;
+}
+
+.container {
+max-width: 740px !important;
+}
+
+.spinner-grow  {
+  display: block !important;
+  margin: 0 auto 2rem;
 }
